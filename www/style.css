@@ -1,0 +1,50 @@
+:root{
+  --bg:#f5f6fa;--card:#fff;--text:#1b1d29;--muted:#6b7080;--line:#e5e7ef;
+  --accent:#4f46e5;--accent-soft:#e8e7fd;--ok:#16a34a;--warn:#d97706;--bad:#dc2626;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1117;--card:#181b25;--text:#eceef6;--muted:#9096aa;--line:#262a38;--accent:#818cf8;--accent-soft:#25274a;--ok:#4ade80;--warn:#fbbf24;--bad:#f87171}
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.4 system-ui,-apple-system,Roboto,sans-serif}
+#view{padding:calc(env(safe-area-inset-top,0px) + 16px) 16px 96px;max-width:640px;margin:0 auto}
+h1{font-size:22px;margin:0 0 4px}
+h2{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.row{display:flex;align-items:center;gap:12px}
+.grow{flex:1;min-width:0}
+.time{font-size:13px;color:var(--muted)}
+.title{font-weight:600;overflow-wrap:anywhere}
+.done .title{text-decoration:line-through;color:var(--muted)}
+.chk{width:30px;height:30px;border-radius:50%;border:2px solid var(--line);background:transparent;color:#fff;font-size:16px;flex:none;padding:0}
+.done .chk{background:var(--ok);border-color:var(--ok)}
+.badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent);margin-left:6px;vertical-align:middle}
+.badge.bad{background:rgba(220,38,38,.15);color:var(--bad)}.badge.warn{background:rgba(217,119,6,.15);color:var(--warn)}
+.now{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.goal{background:var(--accent);color:#fff;border:0}
+.goal .sub{color:#e0e0ff;margin:0}
+.bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--ok);border-radius:99px;transition:width .3s}
+button{font:inherit;color:inherit}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:12px;padding:12px 16px;font-weight:600;width:100%;margin-top:8px}
+.btn.ghost{background:var(--accent-soft);color:var(--accent)}
+.btn.danger{background:rgba(220,38,38,.12);color:var(--bad)}
+.icon{background:none;border:0;font-size:18px;padding:6px;color:var(--muted)}
+.chips{display:flex;gap:6px;overflow-x:auto;margin-bottom:12px;padding-bottom:2px}
+.chip{flex:1;min-width:44px;padding:8px 0;border-radius:10px;border:1px solid var(--line);background:var(--card);font-weight:600;font-size:13px}
+.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.empty{text-align:center;color:var(--muted);padding:32px 12px}
+#tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+#tabs button{flex:1;border:0;background:none;padding:8px 0 10px;font-size:11px;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:2px}
+#tabs button span{font-size:20px}
+#tabs button.on{color:var(--accent);font-weight:700}
+#modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:flex-end;justify-content:center;z-index:10}
+#modal[hidden],#toast[hidden]{display:none}
+.sheet{background:var(--card);width:100%;max-width:640px;border-radius:20px 20px 0 0;padding:18px 16px calc(env(safe-area-inset-bottom,0px) + 18px);max-height:88vh;overflow:auto}
+label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+input,select,textarea{width:100%;font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:99px;font-size:14px;z-index:20;max-width:90%}
+pre{white-space:pre-wrap;font-size:12px;background:var(--bg);border-radius:10px;padding:10px;max-height:200px;overflow:auto}
+.note{font-size:13px;color:var(--muted)}

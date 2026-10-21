@@ -1,0 +1,14 @@
+{
+  "name": "study-planner",
+  "version": "1.0.0",
+  "description": "Offline study planner",
+  "scripts": {},
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/local-notifications": "^8.3.1",
+    "pdfjs-dist": "^3.11.174"
+  },
+  "private": true
+}
