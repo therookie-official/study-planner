@@ -72,4 +72,17 @@ jobs:
           api-level: 34
           arch: x86_64
           target: google_apis
-          script: bash scripts/smoke.sh
+          script: bash scripts/smoke.sh > smoke-result.txt 2>&1
+
+      - name: Save result to a branch
+        if: always()
+        run: |
+          mv smoke-result.txt /tmp/smoke-result.txt || echo "no result file" > /tmp/smoke-result.txt
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git checkout --orphan smoke-logs
+          git rm -rf --quiet . || true
+          cp /tmp/smoke-result.txt smoke-result.txt
+          git add smoke-result.txt
+          git commit -q -m "smoke test result"
+          git push -f origin smoke-logs
