@@ -1,0 +1,220 @@
+Performing Streamed Install
+Success
+  bash arg: -p
+  bash arg: com.studyplanner.app
+  bash arg: -c
+  bash arg: android.intent.category.LAUNCHER
+  bash arg: 1
+args: [-p, com.studyplanner.app, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "com.studyplanner.app"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="com.studyplanner.app"
+data="android.intent.category.LAUNCHER"
+Events injected: 1
+## Network stats: elapsed time=56ms (0ms mobile, 0ms wifi, 56ms not connected)
+=== PROCESS ===
+3069
+=== LOG ===
+10-21 09:46:49.003 D/AndroidRuntime( 2986): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-21 09:46:49.014 I/AndroidRuntime( 2986): Using default boot image
+10-21 09:46:49.014 I/AndroidRuntime( 2986): Leaving lock profiling enabled
+10-21 09:46:49.228 D/nativeloader( 2986): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-21 09:46:49.323 I/ActivityManager(  522): Start proc 3036:com.google.android.webview:webview_service/u0a133 for service {com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer}
+10-21 09:46:49.439 D/AndroidRuntime( 2986): Calling main entry com.android.commands.monkey.Monkey
+10-21 09:46:49.439 W/Monkey  ( 2986): args: [-p, com.studyplanner.app, -c, android.intent.category.LAUNCHER, 1]
+10-21 09:46:49.439 W/Monkey  ( 2986):  arg: "com.studyplanner.app"
+10-21 09:46:49.439 W/Monkey  ( 2986): data="com.studyplanner.app"
+10-21 09:46:49.500 I/ActivityTaskManager(  522): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.studyplanner.app/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-21 09:46:49.739 V/WindowManagerShell(  833): Transition requested: android.os.BinderProxy@1ed15b8 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.studyplanner.app/.MainActivity } baseActivity=ComponentInfo{com.studyplanner.app/com.studyplanner.app.MainActivity} topActivity=ComponentInfo{com.studyplanner.app/com.studyplanner.app.MainActivity} origActivity=null realActivity=ComponentInfo{com.studyplanner.app/com.studyplanner.app.MainActivity} numActivities=1 lastActiveTime=44461 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@2e07f91} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{b9aaef6 com.studyplanner.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-21 09:46:49.741 D/CoreBackPreview(  522): Window{70cf4ed u0 Splash Screen com.studyplanner.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b7043da, mPriority=0, mIsAnimationCallback=false}
+10-21 09:46:49.778 I/ActivityManager(  522): Start proc 3069:com.studyplanner.app/u0a192 for next-top-activity {com.studyplanner.app/com.studyplanner.app.MainActivity}
+10-21 09:46:49.781 I/AndroidRuntime( 2986): VM exiting with result code 0.
+10-21 09:46:49.833 V/WindowManager(  522): Sent Transition #6 createdAt=10-21 09:46:49.485 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.studyplanner.app/.MainActivity } baseActivity=ComponentInfo{com.studyplanner.app/com.studyplanner.app.MainActivity} topActivity=ComponentInfo{com.studyplanner.app/com.studyplanner.app.MainActivity} origActivity=null realActivity=ComponentInfo{com.studyplanner.app/com.studyplanner.app.MainActivity} numActivities=1 lastActiveTime=44461 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{cb60218 Task{ba8fe0e #8 type=standard A=10192:com.studyplanner.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{4b26471 com.studyplanner.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-21 09:46:49.840 V/WindowManager(  522):     info={id=6 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{cb60218 Task{ba8fe0e #8 type=standard A=10192:com.studyplanner.app}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0x3d1578a sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{af56256 Task{31367b0 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x931edc0 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
+10-21 09:46:50.805 I/SdkSandboxManager(  522): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10192, mPackageName='com.studyplanner.app, mAppProcessToken='null'}
+10-21 09:46:51.091 W/ziparchive( 3069): Unable to open '/data/app/~~AwpeXgBq48xj1X0R8QqP_A==/com.studyplanner.app-w_KAFr7ygfF1W4BmyUKJxw==/base.dm': No such file or directory
+10-21 09:46:51.091 W/ziparchive( 3069): Unable to open '/data/app/~~AwpeXgBq48xj1X0R8QqP_A==/com.studyplanner.app-w_KAFr7ygfF1W4BmyUKJxw==/base.dm': No such file or directory
+10-21 09:46:51.245 D/nativeloader( 3069): Configuring clns-6 for other apk /data/app/~~AwpeXgBq48xj1X0R8QqP_A==/com.studyplanner.app-w_KAFr7ygfF1W4BmyUKJxw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~AwpeXgBq48xj1X0R8QqP_A==/com.studyplanner.app-w_KAFr7ygfF1W4BmyUKJxw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.studyplanner.app
+10-21 09:46:51.258 V/GraphicsEnvironment( 3069): ANGLE GameManagerService for com.studyplanner.app: false
+10-21 09:46:51.258 V/GraphicsEnvironment( 3069): com.studyplanner.app is not listed in per-application setting
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e7989cd com.android.cts.priv.ctsshim/10184} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{34a5282 com.google.android.youtube/10139} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e54ed93 com.android.internal.display.cutout.emulation.corner/10025} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{d3e21d0 com.android.internal.display.cutout.emulation.double/10048} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{8a1f5c9 com.google.android.googlequicksearchbox/10132} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{84f14ce com.google.android.onetimeinitializer/10126} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{756cfef com.google.android.ext.shared/10100} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{52b8afc com.android.internal.systemui.navbar.gestural_wide_back/10007} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2cb2585 com.android.virtualmachine.res/10183} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{fcbafda com.google.android.federatedcompute/10170} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5ea7c0b com.android.managedprovisioning.auto_generated_rro_product__/10024} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2245ae8 com.android.carrierconfig.auto_generated_rro_vendor__/10078} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{49d9501 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{a44efa6 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{c2cde7 com.android.systemui.emulation.pixel_fold/10009} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5583d94 com.android.simappdialog.auto_generated_rro_product__/10030} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{dcd803d com.android.htmlviewer/10115} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9c06032 com.google.android.health.connect.backuprestore/10187} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{ce46183 com.android.systemui.auto_generated_rro_product__/10031} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{1459f00 com.google.android.apps.messaging/10129} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{b16e339 com.google.android.soundpicker/10137} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9104d7e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{10192df com.google.android.configupdater/10130} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{fe5ab2c com.android.internal.emulation.pixel_3a_xl/10044} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{ef979f5 com.android.internal.emulation.pixel_6_pro/10018} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{bdfc38a com.android.internal.emulation.pixel_7_pro/10004} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2967dfb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f984e18 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{a34c071 com.android.internal.emulation.pixel_4a/10011} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{37e8e56 com.android.internal.emulation.pixel_6a/10023} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{8c4fed7 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2d033c4 com.google.android.overlay.googlewebview/10049} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{3f2ad com.google.android.hotspot2.osulogin/10182} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{46d39e2 com.android.simappdialog/10111} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f0b173 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e7ec830 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{21a0ca9 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{8a9122e com.android.camera2/10145} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{11af1cf com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{340375c com.google.android.deskclock/10152} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5dca65 com.android.internal.systemui.navbar.twobutton/10020} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{ab8233a com.google.android.as/10125} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{3fedbeb com.google.android.gm/10140} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{d476d48 com.android.internal.systemui.navbar.gestural_extra_wide_back/10045} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{865a7e1 com.android.systemui.emulation.pixel_3/10015} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5753906 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{aed4bc7 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{70a15f4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{b3e11d com.android.systemui.emulation.pixel_7/10072} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{49bdf92 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{168dd63 com.android.nfc.auto_generated_rro_product__/10027} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{aac9d60 com.android.printspooler/10105} BLOCKED
+10-21 09:46:51.425 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{bb27219 com.android.emergency.auto_generated_rro_product__/10041} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{21462de com.google.android.connectivity.resources.goldfish.overlay/10079} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e81ecbf com.android.dreams.basic/10103} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e2e2f8c com.google.android.networkstack.tethering.emulator/10022} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e6f16d5 com.android.providers.settings.auto_generated_rro_product__/10002} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{bffceea com.google.android.as.oss/10122} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{ff295db com.android.traceur.auto_generated_rro_product__/10005} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{654b878 com.google.android.devicelockcontroller/10177} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{7174b51 com.google.android.dialer/10128} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f83efb6 com.android.internal.emulation.pixel_3/10046} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{afab4b7 com.android.internal.emulation.pixel_4/10060} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{c58e424 com.android.internal.emulation.pixel_5/10012} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f344b8d com.android.internal.emulation.pixel_6/10038} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{4575142 com.android.internal.emulation.pixel_7/10067} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{efbe553 com.android.internal.emulation.pixel_8/10039} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2521e90 com.google.android.captiveportallogin/10113} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5a71389 com.android.musicfx/10088} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{50d3f8e com.google.android.apps.docs/10153} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9c20349 com.google.android.apps.maps/10154} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5d583af com.google.android.modulemetadata/10146} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{26293bc com.google.android.markup/10135} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{c645f45 com.android.providers.settings.auto_generated_rro_vendor__/10080} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{21c69a com.google.android.rkpdapp/10179} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e00abcb com.google.android.contacts/10155} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{4a32fa8 com.android.server.telecom.auto_generated_rro_product__/10032} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5f0aac1 com.google.android.overlay.googleconfig/10055} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{dc5b266 com.android.chrome/10149} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{a6c39a7 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{7cf9e54 com.google.android.apps.customization.pixel/10147} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e9c31fd com.google.android.tag/10082} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{66a8ef2 com.google.android.overlay.permissioncontroller/10003} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{418c943 com.google.android.partnersetup/10124} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{8b24bc0 com.google.android.apps.wallpaper.nexus/10143} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{d7ef0f9 com.google.android.apps.nexuslauncher/10169} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{60ea83e com.google.android.nearby.halfsheet/10191} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{974b69f com.android.theme.font.notoserifsource/10066} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{45063ec com.google.android.safetycenter.resources/10173} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{934a3b5 com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{8490a4a com.android.internal.systemui.navbar.transparent/10029} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{7781dbb com.google.android.connectivity.resources/10190} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{d5d2d8 com.android.providers.contacts.auto_generated_rro_product__/10019} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{c58c631 com.google.android.feedback/10162} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9158116 com.google.android.printservice.recommendation/10110} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{880da97 com.google.android.apps.photos/10142} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{eebbf4d com.google.android.calendar/10144} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9414484 com.google.android.documentsui/10098} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{5c2946d com.android.systemui.emulation.pixel_3a_xl/10021} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{66098a2 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{4ee8933 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{7d024f0 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{810a69 com.google.mainline.telemetry/10151} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e539cee com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{17e858f com.android.providers.partnerbookmarks/10102} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{b2aa01c com.android.wallpaper.livepicker/10089} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f96e425 com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{66099fa com.android.phone.auto_generated_rro_vendor__/10081} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{767ebab com.google.mainline.adservices/10136} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{24fa208 com.android.imsserviceentitlement/10117} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9769da1 com.google.android.healthconnect.controller/10186} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{70e5bc6 com.android.internal.emulation.pixel_2_xl/10016} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2379787 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{b40d6b4 com.android.internal.emulation.pixel_4_xl/10047} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f3e72dd com.android.internal.emulation.pixel_fold/10006} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{8846e52 com.android.bookmarkprovider/10114} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f6c2523 com.google.android.overlay.pixelconfigcommon/10014} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{6eaa20 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10050} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{bb45fd9 com.android.systemui.emulation.pixel_3a/10013} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{bd71d9e com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{bd1f07f com.android.systemui.emulation.pixel_6a/10042} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{e4484c com.android.systemui.emulation.pixel_7a/10017} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{6022095 com.google.android.settings.intelligence/10118} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f6f8f44 com.google.android.projection.gearhead/10123} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{d1375aa com.google.android.uwb.resources/10172} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2bee82d com.android.cts.ctsshim/10185} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{a9f159b com.google.android.wifi.resources/10180} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{f339d38 com.google.android.wifi.dialog/10181} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{4313111 com.google.android.apps.wallpaper/10161} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{a0b4276 com.google.android.odad/10121} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{24f7077 com.android.settings.auto_generated_rro_product__/10028} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{32154e4 com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{966cd4d com.google.android.apps.youtube.music/10156} BLOCKED
+10-21 09:46:51.426 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{9e11002 com.android.bluetoothmidiservice/10106} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{1542a4e com.android.storagemanager.auto_generated_rro_product__/10026} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{c0df76f com.google.android.cellbroadcastreceiver/10189} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{2305c7c com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{ead5905 android.auto_generated_rro_product__/10069} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{fcc9d5a com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{fac9b8b com.google.android.inputmethod.latin/10141} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{c64c468 android.auto_generated_rro_vendor__/10075} BLOCKED
+10-21 09:46:51.439 I/AppsFilter(  522): interaction: PackageSetting{f0f3364 com.studyplanner.app/10192} -> PackageSetting{b2f8081 com.google.android.apps.restore/10120} BLOCKED
+10-21 09:46:51.458 I/cr_VariationsUtils( 3069): Failed reading seed file "/data/user/0/com.studyplanner.app/app_webview/variations_seed_new"
+10-21 09:46:51.458 I/cr_VariationsUtils( 3069): Failed reading seed file "/data/user/0/com.studyplanner.app/app_webview/variations_seed"
+10-21 09:46:51.650 W/chromium( 3069): [WARNING:dns_config_service_android.cc(115)] Failed to read DnsConfig.
+10-21 09:46:51.836 I/ActivityManager(  522): Start proc 3363:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0ai9000 for  {com.studyplanner.app/org.chromium.content.app.SandboxedProcessService0:0}
+10-21 09:46:51.974 D/Capacitor( 3069): Starting BridgeActivity
+10-21 09:46:52.036 D/Capacitor( 3069): Registering plugin instance: CapacitorCookies
+10-21 09:46:52.043 D/Capacitor( 3069): Registering plugin instance: WebView
+10-21 09:46:52.049 D/Capacitor( 3069): Registering plugin instance: CapacitorHttp
+10-21 09:46:52.052 D/Capacitor( 3069): Registering plugin instance: SystemBars
+10-21 09:46:52.054 D/Capacitor( 3069): Registering plugin instance: LocalNotifications
+10-21 09:46:52.147 W/Capacitor( 3069): Unable to read file at path public/plugins
+10-21 09:46:52.155 D/Capacitor( 3069): Loading app at https://localhost
+10-21 09:46:52.236 D/Capacitor/LN( 3069): LocalNotification received: null
+10-21 09:46:52.236 D/Capacitor/LN( 3069): Activity started without notification attached
+10-21 09:46:52.270 D/Capacitor( 3069): App started
+10-21 09:46:52.285 D/Capacitor( 3069): App resumed
+10-21 09:46:52.352 I/cr_WebViewApkApp( 3363): Launched version=113.0.5672.136 minSdkVersion=29 isBundle=false processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+10-21 09:46:52.609 D/Capacitor( 3069): Handling local request: https://localhost/
+10-21 09:46:52.706 D/Capacitor( 3069): App paused
+10-21 09:46:52.707 D/Capacitor( 3069): App stopped
+10-21 09:46:52.708 D/Capacitor( 3069): Saving instance state!
+10-21 09:46:52.709 D/Capacitor( 3069): App destroyed
+10-21 09:46:52.710 W/InputManager-JNI(  522): Input channel object '2b59051 com.studyplanner.app/com.studyplanner.app.MainActivity (client)' was disposed without first being removed with the input manager!
+10-21 09:46:52.819 D/Capacitor( 3069): Handling local request: https://localhost/style.css
+10-21 09:46:52.831 D/Capacitor( 3069): Handling local request: https://localhost/lib/pdf.min.js
+10-21 09:46:52.841 D/Capacitor( 3069): Handling local request: https://localhost/parser.js
+10-21 09:46:52.849 D/Capacitor( 3069): Handling local request: https://localhost/app.js
+10-21 09:46:52.937 D/Capacitor( 3069): Starting BridgeActivity
+10-21 09:46:52.944 D/Capacitor( 3069): Registering plugin instance: CapacitorCookies
+10-21 09:46:52.946 D/Capacitor( 3069): Registering plugin instance: WebView
+10-21 09:46:52.947 D/Capacitor( 3069): Registering plugin instance: CapacitorHttp
+10-21 09:46:52.949 D/Capacitor( 3069): Registering plugin instance: SystemBars
+10-21 09:46:52.951 D/Capacitor( 3069): Registering plugin instance: LocalNotifications
+10-21 09:46:53.019 W/Capacitor( 3069): Unable to read file at path public/plugins
+10-21 09:46:53.026 D/Capacitor( 3069): Loading app at https://localhost
+10-21 09:46:53.033 D/Capacitor/LN( 3069): LocalNotification received: null
